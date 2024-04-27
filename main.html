@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- 상단 -->
+  <header>
+    <!-- 좌상단. Google정보, 스토어-->
+    <div class="h_left">
+      <ol>
+        <li><a href="#">Google정보</a></li>
+        <li><a href="#">스토어</a></li>
+      </ol>
+    </div>
+
+    <!-- 우상단. Gmail, 이미지, 메뉴, 프로필(이미지) -->
+    <div class="h_right">
+      <ol>
+        <li><a href="./gmail.html">Gmail</a></li>
+        <li><a href="#">이미지</a></li>
+        <li><a id = "menu" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+        <li><a href="#"><img id = "profile_img" src="./img/profile.png" alt="profile" width="30px" height="30px"></a></li>
+      </ol>
+    </div>
+  </header>
+
+  <!-- 중단 구글로고, 검색바, 아이콘(돋보기,키보드,마이크,사진), 버튼(Google 검색, I'm Feeling Lucky)-->
+  <section class="middle">
+    
+    <!-- 로고 --->
+    <div class="logo">
+      <img id = "logo_img" src="./img/logo.png" alt="google-logo">  
+    </div>
+    <!-- 검색바 --->
+    <div class="search-box">
+      <span class = "search_icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+      <span class = "keyboard_icon"><i class="fa-regular fa-keyboard"></i></span>
+      <span class = "microphone_icon"><i class="fa-solid fa-microphone"></i></span>
+      <span class = "camera_icon"><i class="fa-solid fa-camera"></i></span>
+      <input class = "search-bar" type="text">
+    </div>
+    <!-- 버튼 --->
+    <div class="button-box">
+      <a class="button-search" href="#">Google 검색</a>
+      <a class="button-feeling"href="#">I'm Feeling Lucky</a>
+    </div>
+  </section>
+  
+  <!-- 하단 -->
+  <footer>
+    <!-- 하단 first -->
+    <div class="f_first">
+      대한민국
+    </div>
+    <!-- 하단 second -->
+    <div class="f_second">
+      <!-- 하단 second left -->
+      <div class="f_left">
+          <a href="#">광고</a>
+          <a href="#">비즈니스</a>
+          <a href="#">검색의 원리</a>
+      </div>
+      <!-- 하단 second right -->
+      <div class="f_right">
+          <a href="#">개인정보처리방침</a>
+          <a href="#">약관</a>
+          <a href="#">설정</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
